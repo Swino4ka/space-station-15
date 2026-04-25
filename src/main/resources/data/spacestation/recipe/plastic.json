@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:coal" },
+    { "item": "minecraft:slime_ball" }
+  ],
+  "result": {
+    "id": "spacestation:plastic",
+    "count": 1
+  }
+}

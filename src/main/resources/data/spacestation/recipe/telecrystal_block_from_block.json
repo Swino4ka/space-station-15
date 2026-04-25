@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:telecrystal_block" }
+  ],
+  "result": {
+    "id": "spacestation:telecrystal",
+    "count": 9
+  }
+}

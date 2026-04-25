@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": { "item": "spacestation:telecrystal" }
+  },
+  "result": {
+    "id": "spacestation:telecrystal_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "C I",
+    "PPP"
+  ],
+  "key": {
+    "P": { "item": "spacestation:plastic" },
+    "C": { "item": "minecraft:copper_ingot" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "id": "spacestation:id_card",
+    "count": 1
+  }
+}

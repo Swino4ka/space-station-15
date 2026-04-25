@@ -1,0 +1,16 @@
+{
+  "item.spacestation.bananium": "Bananium",
+  "item.spacestation.telecrystal": "Telecrystal",
+  "block.spacestation.telecrystal_block": "Telecrystal Block",
+  "block.spacestation.wall_girder": "Wall Girder",
+  "block.spacestation.steel_tile": "Steel Tile",
+  "block.spacestation.steel_wall": "Steel Wall",
+  "block.spacestation.uranium_ore_block": "Uranium Ore Block",
+  "item.spacestation.steel_ore": "Steel Ore",
+  "item.spacestation.uranium_ore": "Uranium Ore",
+  "item.spacestation.steel": "Steel",
+  "item.spacestation.rod": "Rod",
+  "item.spacestation.plastic": "Plastic",
+  "item.spacestation.id_card": "ID Card",
+  "itemGroup.spacestation.content": "Space Station 15"
+}

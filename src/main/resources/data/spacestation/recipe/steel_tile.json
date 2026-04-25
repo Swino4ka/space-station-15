@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": { "item": "spacestation:steel" }
+  },
+  "result": {
+    "id": "spacestation:steel_tile",
+    "count": 2
+  }
+}

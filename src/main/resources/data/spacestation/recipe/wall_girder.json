@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RSR",
+    "S S",
+    "RSR"
+  ],
+  "key": {
+    "S": { "item": "spacestation:steel" },
+    "R": { "item": "spacestation:rod" }
+  },
+  "result": {
+    "id": "spacestation:wall_girder",
+    "count": 1
+  }
+}
