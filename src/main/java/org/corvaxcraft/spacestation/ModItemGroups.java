@@ -17,8 +17,22 @@ public final class ModItemGroups {
                     .displayName(Text.translatable("itemGroup.spacestation.content"))
                     .entries((context, entries) -> {
                         entries.add(ModItems.BANANIUM);
+                        entries.add(ModItems.BANANIUM_ORE);
+                        entries.add(ModItems.BUTTER);
+                        entries.add(ModItems.BUTTER_SLICE);
+                        entries.add(ModItems.CROISSANT);
+                        entries.add(ModItems.CROISSANT_RAW);
+                        entries.add(ModItems.DOUGH);
+                        entries.add(ModItems.PLASMA_ORE);
+                        entries.add(ModItems.DOUGH_SLICE);
+                        entries.add(ModItems.DOUGH_FLAT);
+                        entries.add(ModItems.SAUSAGE_BREAD);
+                        entries.add(ModItems.SAUSAGE_BREAD_SLICE);
+                        entries.add(ModItems.FLOUR);
                         entries.add(ModItems.TELECRYSTAL);
                         entries.add(ModBlocks.TELECRYSTAL_BLOCK.asItem());
+                        entries.add(ModBlocks.BANANIUM_ORE_BLOCK.asItem());
+                        entries.add(ModBlocks.PLASMA_ORE_BLOCK.asItem());
                         entries.add(ModBlocks.WALL_GIRDER.asItem());
                         entries.add(ModBlocks.STEEL_TILE.asItem());
                         entries.add(ModBlocks.STEEL_WALL.asItem());

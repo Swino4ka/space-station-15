@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:butter_slice" },
+    { "item": "spacestation:dough_slice" }
+  ],
+  "result": {
+    "id": "spacestation:croissant_raw",
+    "count": 1
+  }
+}

@@ -23,6 +23,57 @@ public final class ModItems {
                             .build()
             ))
     );
+    public static final Item CROISSANT = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "croissant"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(4)
+                            .saturationModifier(0.7f)
+                            .build()
+            ))
+    );
+    public static final Item SAUSAGE_BREAD = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "sausage_bread"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(1)
+                            .saturationModifier(0.1f)
+                            .build()
+            ))
+    );
+    public static final Item CROISSANT_RAW = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(1)
+                            .saturationModifier(0.1f)
+                            .build()
+            ))
+    );
+
+    public static final Item SAUSAGE_BREAD_SLICE = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "sausage_bread_slice"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(3)
+                            .saturationModifier(0.5f)
+                            .build()
+            ))
+    );
+
+
+    public static final Item BANANIUM_ORE = register("bananium_ore");
+    public static final Item PLASMA_ORE = register("plasma_ore");
+    public static final Item FLOUR = register("flour");
+    public static final Item BUTTER = register("butter");
+    public static final Item BUTTER_SLICE = register("butter_slice");
+    public static final Item DOUGH = register("dough");
+    public  static final Item DOUGH_SLICE = register("dough_slice");
+    public static final Item DOUGH_FLAT = register("dough_flat");
     public static final Item TELECRYSTAL = register("telecrystal");
     public static final Item STEEL_ORE = register("steel_ore");
     public static final Item URANIUM_ORE = register("uranium_ore");

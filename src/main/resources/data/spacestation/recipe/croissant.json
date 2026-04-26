@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:croissant_raw"
+  },
+  "result": {
+    "id": "spacestation:croissant"
+  },
+  "experience": 0.20,
+  "cookingtime": 120
+}

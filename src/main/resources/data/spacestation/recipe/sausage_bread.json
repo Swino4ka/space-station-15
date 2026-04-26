@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:butter_slice" },
+    { "item": "spacestation:dough" },
+    { "item": "minecraft:beef" }
+  ],
+  "result": {
+    "id": "spacestation:sausage_bread",
+    "count": 1
+  }
+}

@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["spacestation:steel_tile", "spacestation:telecrystal_block", "spacestation:wall_girder", "spacestation:steel_wall", "spacestation:uranium_ore_block"]
+  "values": ["spacestation:steel_tile", "spacestation:telecrystal_block", "spacestation:wall_girder", "spacestation:steel_wall", "spacestation:uranium_ore_block", "spacestation:bananium_ore_block", "spacestation:plasma_ore_block"]
 }

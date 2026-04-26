@@ -21,6 +21,24 @@ public final class ModBlocks {
             true
     );
 
+    public static final Block PLASMA_ORE_BLOCK = register(
+            "plasma_ore_block",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f)
+                    .requiresTool(),
+            true
+    );
+
+    public static final Block BANANIUM_ORE_BLOCK = register(
+            "bananium_ore_block",
+            Block::new,
+            AbstractBlock.Settings.create()
+                    .strength(1.5f)
+                    .requiresTool(),
+            true
+    );
+
     public static final Block WALL_GIRDER = register(
             "wall_girder",
             Block::new,
