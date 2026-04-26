@@ -42,6 +42,7 @@ public final class ModItemGroups {
                         entries.add(ModItems.STEEL);
                         entries.add(ModItems.ROD);
                         entries.add(ModItems.PLASTIC);
+                        entries.add(ModItems.PLASTIC_KNIFE);
                         entries.add(ModItems.ID_CARD);
                     })
                     .build()

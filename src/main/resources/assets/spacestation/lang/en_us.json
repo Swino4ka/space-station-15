@@ -10,8 +10,8 @@
   "item.spacestation.croissant_raw": "Raw Croissant",
   "item.spacestation.butter_slice": "Butter Slice",
   "item.spacestation.dough": "Dough",
-  "item.spacestation.dough_slace": "Dough Slice",
-  "item.spacestation.dough_flat": "Dough Flat",
+  "item.spacestation.dough_flat": "Flat Dough",
+  "item.spacestation.dough_slice": "Dough Slice",
   "item.spacestation.telecrystal": "Telecrystal",
   "block.spacestation.telecrystal_block": "Telecrystal Block",
   "block.spacestation.bananium_ore_block": "Bananium Ore Block",
@@ -25,6 +25,7 @@
   "item.spacestation.steel": "Steel",
   "item.spacestation.rod": "Rod",
   "item.spacestation.plastic": "Plastic",
+  "item.spacestation.plastic_knife": "Plastic Knife",
   "item.spacestation.id_card": "ID Card",
   "itemGroup.spacestation.content": "Space Station 15"
 }

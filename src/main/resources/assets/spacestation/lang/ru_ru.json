@@ -10,8 +10,8 @@
   "item.spacestation.sausage_bread": "Хлеб с Сосикой",
   "item.spacestation.sausage_bread_slice": "Куски Хлеба с Сосиской",
   "item.spacestation.dough": "Тесто",
+  "item.spacestation.dough_flat":"Плоское Тесто",
   "item.spacestation.dough_slice": "Кусочек Теста",
-  "item.spacestation.dough_flat":"Круглое Тесто",
   "item.spacestation.telecrystal": "Телекристалл",
   "block.spacestation.telecrystal_block": "Телекристалльный Блок",
   "block.spacestation.bananium_ore_block": "Блок Бананиумой Руды",
@@ -25,6 +25,7 @@
   "item.spacestation.steel": "Сталь",
   "item.spacestation.rod": "Стержень",
   "item.spacestation.plastic": "Пластик",
+  "item.spacestation.plastic_knife": "Пластиковый Ножик",
   "item.spacestation.id_card": "Айди Карточка",
   "itemGroup.spacestation.content": "Космическая Станция 15"
 }

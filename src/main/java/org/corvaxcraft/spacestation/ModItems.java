@@ -23,33 +23,25 @@ public final class ModItems {
                             .build()
             ))
     );
+
     public static final Item CROISSANT = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "croissant"),
             new Item(new Item.Settings().food(
                     new FoodComponent.Builder()
-                            .nutrition(4)
+                            .nutrition(5)
                             .saturationModifier(0.7f)
                             .build()
             ))
     );
+
     public static final Item SAUSAGE_BREAD = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "sausage_bread"),
             new Item(new Item.Settings().food(
                     new FoodComponent.Builder()
-                            .nutrition(1)
-                            .saturationModifier(0.1f)
-                            .build()
-            ))
-    );
-    public static final Item CROISSANT_RAW = Registry.register(
-            Registries.ITEM,
-            Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
-            new Item(new Item.Settings().food(
-                    new FoodComponent.Builder()
-                            .nutrition(1)
-                            .saturationModifier(0.1f)
+                            .nutrition(6)
+                            .saturationModifier(1.3f)
                             .build()
             ))
     );
@@ -59,12 +51,22 @@ public final class ModItems {
             Identifier.of(SpaceStation.MOD_ID, "sausage_bread_slice"),
             new Item(new Item.Settings().food(
                     new FoodComponent.Builder()
-                            .nutrition(3)
-                            .saturationModifier(0.5f)
+                            .nutrition(2)
+                            .saturationModifier(0.6f)
                             .build()
             ))
     );
 
+    public static final Item CROISSANT_RAW = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(2)
+                            .saturationModifier(0.3f)
+                            .build()
+            ))
+    );
 
     public static final Item BANANIUM_ORE = register("bananium_ore");
     public static final Item PLASMA_ORE = register("plasma_ore");
@@ -80,6 +82,7 @@ public final class ModItems {
     public static final Item STEEL = register("steel");
     public static final Item ROD = register("rod");
     public static final Item PLASTIC = register("plastic");
+    public static final Item PLASTIC_KNIFE = register("plastic_knife");
     public static final Item ID_CARD = register("id_card");
 
     private ModItems() {}
