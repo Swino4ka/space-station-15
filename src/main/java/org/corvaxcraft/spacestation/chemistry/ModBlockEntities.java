@@ -1,6 +1,5 @@
 package org.corvaxcraft.spacestation.chemistry;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -16,7 +15,7 @@ public class ModBlockEntities {
         CHEM_MASTER = Registry.register(
                 Registries.BLOCK_ENTITY_TYPE,
                 Identifier.of(SpaceStation.MOD_ID, "chem_master"),
-                FabricBlockEntityTypeBuilder.create(ChemMasterBlockEntity::new,
+                BlockEntityType.Builder.create(ChemMasterBlockEntity::new,
                         ModBlocks.CHEM_MASTER_BLOCK).build()
         );
     }

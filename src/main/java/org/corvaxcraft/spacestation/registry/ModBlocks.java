@@ -57,7 +57,7 @@ public final class ModBlocks {
             "wall_girder",
             AssemblyBlock::new,  // <-- Кастомный класс чтоб работали крафты, НЕ ИЗМЕНЯТЬ!!!
             AbstractBlock.Settings.create()
-                    .strength(1.5f)
+                    .strength(4.0f, 30.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.CHAIN)
                     .nonOpaque(),
@@ -68,7 +68,7 @@ public final class ModBlocks {
             "wall_girder_reinforced",
             AssemblyBlock::new,  // <-- Кастомный класс чтоб работали крафты, НЕ ИЗМЕНЯТЬ!!!
             AbstractBlock.Settings.create()
-                    .strength(4f)
+                    .strength(6.0f, 60.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.CHAIN)
                     .nonOpaque(),
@@ -104,7 +104,7 @@ public final class ModBlocks {
             "steel_wall",
             AssemblyBlock::new,
             AbstractBlock.Settings.create()
-                    .strength(1.5f, 6.0f)
+                    .strength(8.0f, 120.0f)
                     .requiresTool(),
             true
     );
@@ -113,7 +113,7 @@ public final class ModBlocks {
             "steel_wall_reinforced",
             AssemblyBlock::new,
             AbstractBlock.Settings.create()
-                    .strength(4f, 12.0f)
+                    .strength(12.0f, 1200.0f)
                     .requiresTool(),
             true
     );
@@ -132,7 +132,7 @@ public final class ModBlocks {
             "chem_master_block",
             ChemMasterBlock::new,
             AbstractBlock.Settings.create()
-                    .strength(2.0f)
+                    .strength(5.0f, 30.0f)
                     .requiresTool(),
             true
     );
