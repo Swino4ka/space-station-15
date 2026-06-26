@@ -135,5 +135,7 @@ jobs:
 
           data = json.dumps(payload).encode("utf-8")
           req = urllib.request.Request(webhook, data=data, headers={"Content-Type": "application/json"})
+          print(json.dumps(payload, ensure_ascii=False, indent=2))
+          print(f"Webhook URL starts with: {webhook[:50]}...")
           urllib.request.urlopen(req)
           EOF
