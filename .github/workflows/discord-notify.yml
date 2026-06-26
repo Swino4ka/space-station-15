@@ -1,0 +1,49 @@
+name: Discord Notify
+on:
+  pull_request:
+    types: [opened, closed, reopened]
+  issues:
+    types: [opened, closed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR opened
+        if: github.event_name == 'pull_request' && github.event.action == 'opened'
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d '{
+            "embeds": [{
+              "title": "📬 Пул Реквест",
+              "description": "**[${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})**\nby `${{ github.event.pull_request.user.login }}`",
+              "color": 3447003
+            }]
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: PR merged
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d '{
+            "embeds": [{
+              "title": "✅ Мердж",
+              "description": "**[${{ github.event.pull_request.title }}](${{ github.event.pull_request.html_url }})**\nby `${{ github.event.pull_request.user.login }}`",
+              "color": 5763719
+            }]
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Issue opened
+        if: github.event_name == 'issues' && github.event.action == 'opened'
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d '{
+            "embeds": [{
+              "title": "🐛 Новый Репорт",
+              "description": "**[${{ github.event.issue.title }}](${{ github.event.issue.html_url }})**\nby `${{ github.event.issue.user.login }}`",
+              "color": 15548997
+            }]
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
