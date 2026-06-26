@@ -21,6 +21,7 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 
 ## Documentation / Writing
 
+- @Swino4ka
 ## Translation
 
 ## Other
