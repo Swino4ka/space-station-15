@@ -150,7 +150,7 @@ public final class ModBlocks {
 
     public static void register() {
         // Рецепты для крафта ингейм
-        // Без инструментов — только сборка, без разбора
+        // Без инструментов будет только сборка, без разбора
         AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.STEEL, STEEL_WALL, 2, 0.4f, 1.2f, ModItems.CROWBAR);
         AssemblyBlock.registerUpgrade(WALL_GIRDER_REINFORCED, ModItems.PLASTEEL, STEEL_WALL_REINFORCED, 2, 0.4f, 1.2f, ModItems.CROWBAR);
         AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.ROD, WALL_GIRDER_REINFORCED, 4, 0.4f, 1.2f, ModItems.SCREWDRIVER);
