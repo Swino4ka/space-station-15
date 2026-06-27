@@ -181,6 +181,24 @@ public final class ModItems {
             )
     );
 
+    public static final Item CROWBAR_RED = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "crowbar_red"),
+            new Item(new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(100)
+            )
+    );
+
+    public static final Item CROWBAR_BRASS = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "crowbar_brass"),
+            new Item(new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(100)
+            )
+    );
+
     public static final Item SCREWDRIVER = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "screwdriver"),
@@ -379,6 +397,19 @@ public final class ModItems {
             )
     );
 
+    public static final Item PIZZA_Pineapple = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple"),
+            new Item(new Item.Settings()
+                    .food(
+                            new FoodComponent.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(1.5f)
+                                    .build()
+                    )
+            )
+    );
+
     public static final Item PIZZA_MEAT_SLICE = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "pizza_meat_slice"),
@@ -423,6 +454,19 @@ public final class ModItems {
     public static final Item PIZZA_MUSHROOM_SLICE = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom_slice"),
+            new Item(new Item.Settings()
+                    .food(
+                            new FoodComponent.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(1.5f)
+                                    .build()
+                    )
+            )
+    );
+
+    public static final Item PIZZA = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "pizza"),
             new Item(new Item.Settings()
                     .food(
                             new FoodComponent.Builder()

@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " I ",
-    "ILI",
-    " I "
+    "  I",
+    " IL",
+    "I  "
   ],
   "key": {
     "I": { "item": "minecraft:iron_ingot" },
-    "L":   { "item": "minecraft:lava_bucket"}
+    "L": { "item": "minecraft:orange_dye" }
   },
   "result": {
-    "id": "spacestation:welder",
+    "id": "spacestation:crowbar_brass",
     "count": 1
   }
 }
