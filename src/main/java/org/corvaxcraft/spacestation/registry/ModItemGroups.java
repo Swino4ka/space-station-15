@@ -31,6 +31,8 @@ public final class ModItemGroups {
                         entries.add(ModItems.BUTTER);
                         entries.add(ModItems.BUTTER_SLICE);
                         entries.add(ModItems.CROWBAR);
+                        entries.add(ModItems.CROWBAR_RED);
+                        entries.add(ModItems.CROWBAR_BRASS);
                         entries.add(ModItems.SCREWDRIVER);
                         entries.add(ModItems.CANISTER);
                         entries.add(ModItems.CROISSANT);
@@ -68,6 +70,8 @@ public final class ModItemGroups {
                         entries.add(ModItems.URANIUM_ORE);
                         entries.add(ModItems.STEEL_ORE);
                         entries.add(ModItems.STEEL);
+                        entries.add(ModItems.Spaghetti);
+                        entries.add(ModItems.XENOMORPH_PLUSH_TOY);
                         entries.add(ModItems.PLASTEEL);
                         entries.add(ModItems.ROD);
                         entries.add(ModItems.PLASTIC);
@@ -77,6 +81,9 @@ public final class ModItemGroups {
                         entries.add(ModItems.PLUSHIE_BEE);
                         entries.add(ModItems.PLUSHIE_IAN);
                         entries.add(ModItems.PLUSHIE_LIZARD);
+                        entries.add(ModItems.Pineapple);
+                        entries.add(ModItems.PIZZA_Pineapple);
+                        entries.add(ModItems.PIZZA);
                         entries.add(ModItems.PIZZA_MEAT);
                         entries.add(ModItems.PIZZA_MEAT_RAW);
                         entries.add(ModItems.PIZZA_MEAT_SLICE);
