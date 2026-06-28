@@ -2,19 +2,18 @@ name: Update Credits
 on:
   pull_request:
     types: [closed]
-
 permissions:
   contents: write
   pull-requests: read
-
 jobs:
   update-credits:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
-
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Update credits
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
