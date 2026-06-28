@@ -1,14 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  I",
-    " IL",
-    "I  "
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:crowbar" },
+    { "item": "minecraft:red_dye" }
   ],
-  "key": {
-    "I": { "item": "minecraft:iron_ingot" },
-    "L": { "item": "minecraft:red_dye"}
-  },
   "result": {
     "id": "spacestation:crowbar_red",
     "count": 1
