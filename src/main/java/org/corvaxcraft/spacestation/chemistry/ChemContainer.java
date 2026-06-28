@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class ChemContainer extends Item {
 
-    private static final double DRINK_AMOUNT = 5.0; // юнитов за одно питьё
+    private static final double DRINK_AMOUNT = 5.0; // юнитов за одно питьё.
 
     public ChemContainer(Settings settings) {
         super(settings);
@@ -81,7 +81,7 @@ public class ChemContainer extends Item {
                     player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 220, 1));
             default ->
                     // TODO: Назначить точечные эффекты для каждого нового реагента/препарата.
-                    // Временно: безопасный дефолт-эффект, чтобы вещество не было "пустым".
+                    // Временно: безопасный дефолт-эффект, чтобы вещество не было пустым.
                     player.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 80, 0));
         }
     }
