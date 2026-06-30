@@ -119,18 +119,6 @@ public final class FoodItems {
                     .nutrition(1).saturationModifier(0.2f).build()))
     );
 
-    public static final Item TOMATO = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "tomato"),
-            new Item(new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(3).saturationModifier(0.3f).build()))
-    );
-
-    public static final Item PINEAPPLE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pineapple"),
-            new Item(new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(2).saturationModifier(1.5f).build()))
-    );
-
     // Пицца
     public static final Item PIZZA_MEAT_RAW = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_raw"),
@@ -172,22 +160,6 @@ public final class FoodItems {
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom_slice"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(1.5f).build()))
-    );
-
-    // Семена / растительное
-    public static final Item COTTON_SEEDS = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cotton_seeds"),
-            new AliasedBlockItem(ModBlocks.COTTON_CROP, new Item.Settings())
-    );
-
-    public static final Item TOMATO_SEEDS = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "tomato_seeds"),
-            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings())
-    );
-
-    public static final Item TOWERCAP_SEEDS = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "towercap_seeds"),
-            new AliasedBlockItem(ModBlocks.TOWERCAP_CROP, new Item.Settings())
     );
 
     private FoodItems() {}

@@ -11,10 +11,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
 import org.technocracy.spacestation.block.AssemblyBlock;
-import org.technocracy.spacestation.block.CottonCropBlock;
-import org.technocracy.spacestation.block.TomatoCropBlock;
-import org.technocracy.spacestation.block.TowercapCropBlock;
 import org.technocracy.spacestation.chemistry.ChemMasterBlock;
+import org.technocracy.spacestation.registry.blocks.PlantBlocks;
 import org.technocracy.spacestation.registry.items.*;
 
 import java.util.function.Function;
@@ -75,30 +73,6 @@ public final class ModBlocks {
                     .sounds(BlockSoundGroup.CHAIN)
                     .nonOpaque(),
             true
-    );
-
-    public static final Block COTTON_CROP = Registry.register(
-            Registries.BLOCK,
-            Identifier.of(SpaceStation.MOD_ID, "cotton_crop"),
-            new CottonCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)
-                    .nonOpaque()
-                    .ticksRandomly())
-    );
-
-    public static final Block TOMATO_CROP = Registry.register(
-            Registries.BLOCK,
-            Identifier.of(SpaceStation.MOD_ID, "tomato_crop"),
-            new TomatoCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)
-                    .nonOpaque()
-                    .ticksRandomly())
-    );
-
-    public static final Block TOWERCAP_CROP = Registry.register(
-            Registries.BLOCK,
-            Identifier.of(SpaceStation.MOD_ID, "towercap_crop"),
-            new TowercapCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)
-                    .nonOpaque()
-                    .ticksRandomly())
     );
 
     public static final Block STEEL_TILE = register(
@@ -164,6 +138,8 @@ public final class ModBlocks {
 
         AssemblyBlock.registerUpgrade(WALL_GIRDER, MiscItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9,  0.4f, 1.2f);
         // Смотреть Комментарий в МодИтемс.жава
+
+        PlantBlocks.register();
     }
 
     private static <T extends Block> T register(
