@@ -19,7 +19,6 @@ public final class ModItems {
         PlushieItems.register();
         ChemItems.register();
         MiscItems.register();
-        PlantItems.register();
     }
 
     private ModItems() {}
