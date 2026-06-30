@@ -8,7 +8,7 @@ import org.technocracy.spacestation.client.chemistry.ChemMasterScreen;
 import org.technocracy.spacestation.client.hud.TimerHud;
 import org.technocracy.spacestation.chemistry.ModScreenHandlers;
 import org.technocracy.spacestation.registry.ModBlocks;
-import org.technocracy.spacestation.registry.blocks.CropBlocks;
+import org.technocracy.spacestation.registry.blocks.PlantBlocks;
 
 public class SpaceStationClient implements ClientModInitializer {
     @Override
@@ -19,9 +19,9 @@ public class SpaceStationClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WALL_GIRDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WALL_GIRDER_REINFORCED, RenderLayer.getCutout());
         // Crops
-        BlockRenderLayerMap.INSTANCE.putBlock(CropBlocks.COTTON_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(CropBlocks.TOMATO_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(CropBlocks.TOWERCAP_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.COTTON_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.TOMATO_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.TOWERCAP_CROP, RenderLayer.getCutout());
         TimerHud.register();
     }
 }

@@ -7,16 +7,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
-import org.technocracy.spacestation.registry.blocks.CropBlocks;
+import org.technocracy.spacestation.registry.blocks.PlantBlocks;
 
-public final class CropItems {
+public final class PlantItems {
 
     public static final Item COTTON        = register("cotton");
     public static final Item COTTON_RAW    = register("cotton_raw");
 
     public static final Item COTTON_SEEDS = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cotton_seeds"),
-            new AliasedBlockItem(CropBlocks.COTTON_CROP, new Item.Settings())
+            new AliasedBlockItem(PlantBlocks.COTTON_CROP, new Item.Settings())
     );
 
     public static final Item TOMATO = Registry.register(
@@ -27,13 +27,13 @@ public final class CropItems {
 
     public static final Item TOMATO_SEEDS = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "tomato_seeds"),
-            new AliasedBlockItem(CropBlocks.TOMATO_CROP, new Item.Settings())
+            new AliasedBlockItem(PlantBlocks.TOMATO_CROP, new Item.Settings())
     );
 
 
     public static final Item TOWERCAP_SEEDS = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "towercap_seeds"),
-            new AliasedBlockItem(CropBlocks.TOWERCAP_CROP, new Item.Settings())
+            new AliasedBlockItem(PlantBlocks.TOWERCAP_CROP, new Item.Settings())
     );
 
     // TODO (asnden): pineapple stuff
@@ -50,7 +50,7 @@ public final class CropItems {
         );
     }
 
-    private CropItems() {}
+    private PlantItems() {}
 
     public static void register() {}
 }

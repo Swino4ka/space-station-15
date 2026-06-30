@@ -11,7 +11,7 @@ import org.technocracy.spacestation.block.CottonCropBlock;
 import org.technocracy.spacestation.block.TomatoCropBlock;
 import org.technocracy.spacestation.block.TowercapCropBlock;
 
-public class CropBlocks {
+public class PlantBlocks {
     public static final Block COTTON_CROP = Registry.register(
             Registries.BLOCK,
             Identifier.of(SpaceStation.MOD_ID, "cotton_crop"),
@@ -36,7 +36,7 @@ public class CropBlocks {
                     .ticksRandomly())
     );
 
-    private CropBlocks() {}
+    private PlantBlocks() {}
 
     public static void register() {}
 }

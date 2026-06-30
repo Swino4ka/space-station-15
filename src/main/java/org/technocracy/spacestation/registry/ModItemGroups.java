@@ -51,12 +51,12 @@ public final class ModItemGroups {
                         entries.add(MiscItems.FLOUR);
                         entries.add(MiscItems.TELECRYSTAL);
                         // ModCrops
-                        entries.add(CropItems.COTTON);
-                        entries.add(CropItems.COTTON_RAW);
-                        entries.add(CropItems.COTTON_SEEDS);
-                        entries.add(CropItems.PINEAPPLE);
-                        entries.add(CropItems.TOMATO);
-                        entries.add(CropItems.TOMATO_SEEDS);
+                        entries.add(PlantItems.COTTON);
+                        entries.add(PlantItems.COTTON_RAW);
+                        entries.add(PlantItems.COTTON_SEEDS);
+                        entries.add(PlantItems.PINEAPPLE);
+                        entries.add(PlantItems.TOMATO);
+                        entries.add(PlantItems.TOMATO_SEEDS);
                         // entries.add(ModCrops.TOWERCAP_SEEDS); // (asnden): not implemented yet
                         entries.add(MiscItems.TRASH_PLASTIC);
                         entries.add(ModBlocks.TELECRYSTAL_BLOCK.asItem());
