@@ -50,11 +50,14 @@ public final class ModItemGroups {
                         entries.add(FoodItems.SAUSAGE_BREAD_SLICE);
                         entries.add(MiscItems.FLOUR);
                         entries.add(MiscItems.TELECRYSTAL);
-                        entries.add(MiscItems.COTTON);
-                        entries.add(MiscItems.COTTON_RAW);
-                        entries.add(FoodItems.COTTON_SEEDS);
-                        entries.add(FoodItems.TOMATO);
-                        entries.add(FoodItems.TOMATO_SEEDS);
+                        // ModCrops
+                        entries.add(PlantItems.COTTON);
+                        entries.add(PlantItems.COTTON_RAW);
+                        entries.add(PlantItems.COTTON_SEEDS);
+                        entries.add(PlantItems.PINEAPPLE);
+                        entries.add(PlantItems.TOMATO);
+                        entries.add(PlantItems.TOMATO_SEEDS);
+                        // entries.add(ModCrops.TOWERCAP_SEEDS); // (asnden): not implemented yet
                         entries.add(MiscItems.TRASH_PLASTIC);
                         entries.add(ModBlocks.TELECRYSTAL_BLOCK.asItem());
                         entries.add(ModBlocks.TELECRYSTAL_CRYSTAL_BLOCK.asItem());
@@ -82,7 +85,6 @@ public final class ModItemGroups {
                         entries.add(PlushieItems.PLUSHIE_IAN);
                         entries.add(PlushieItems.PLUSHIE_LIZARD);
                         entries.add(PlushieItems.PLUSHIE_XENO);
-                        entries.add(FoodItems.PINEAPPLE);
                         entries.add(FoodItems.PIZZA_PINEAPPLE);
                         entries.add(FoodItems.PIZZA_MEAT);
                         entries.add(FoodItems.PIZZA_MEAT_RAW);
