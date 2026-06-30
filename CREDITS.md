@@ -16,8 +16,10 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 - @AsnDen
 ## Artwork / Sprites
 
+- @Dead-Wasp
 ## Textures
 
+- @Dead-Wasp
 ## Sound & Music
 
 - @Swino4ka
